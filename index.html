@@ -13,12 +13,13 @@
       href="./assets/images/favicon-z.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Backend Software Engineer | Developer portfolio</title>
+    <title>Zach - Backend Software Engineer</title>
   </head>
+
   <header class="header">
   <body>
     <div class="brand"> <!-- Container for the brand name -->
-      <a href="/">zachrich</a>
+      <a class="home-link" href="/">zachrich</a>
     </div>
     <nav class="links"> <!-- Container for the links -->
       <a href="https://github.com/ZachRich"
@@ -38,22 +39,43 @@
     </header>
 
     <main id="main">
-      <div class="wrapper">
-        <h1>Hi!, Im Zach.</h1>
-      </div>
+      <!-- PROFILE -->
+      <section id = "profile">
+        <div class="section_pic-container">
+          <img src="./assets/images/profile.JPG" alt="Zach's Profile Picture" width="300", height="350"></img>
+        </div>
+        <div class="section_text">
+          <h1 class="title">Hi!, Im Zach.</h1>
+          <p class="section_text_p2">Backend Developer</p>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('./assets/resume/resume.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href('./#contact')")">Contact Info</button>
+          </div>
+        </div>
+      </section>
+      
+      <!--ABOUT ME-->
+      <section id="about">
+        <p class="section_text">About Me</p>
+        <div class="section-container">
+          <div class="section_pic_container">
+              <p>I have experience developing and maintaining RESTful APIs using Java Spring, SQL, and leveraging testing tools to write maintainable code.
+                 I've worked with a team of software engineers and product managers to deliver reliable and maintainable
+                  software solutions for various clients and projects in the tech industry.
+                I have a Bachelor of Science degree in Computer Science from Salem State University, where I gained a 
+                solid foundation in programming, data structures, algorithms, databases, and software engineering principles.
+                 I am proficient in Java, API development, SQL, and testing, and I embrace new technologies for continuous growth
+                  and learning in this dynamic field. I am passionate about creating software that solves real-world problems and 
+                  adds value to users and stakeholders.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--contact-->
+      <section id="contact">
+      <h2>Contact</h2>
+    </section>
     </main>
-
     <footer class="footer"></footer>
-
-    Im a Backend Sofware Engineer who specializes in Java Spring.
-
-    <h2>Experience</h2>
-    <body>
-      <strong>Java Spring:</strong> 2 years
-    </body>
-
-    <h2>Projects</h2>
-
-    <h2>Contact me</h2>
   </body>
 </html>
