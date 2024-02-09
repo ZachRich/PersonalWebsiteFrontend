@@ -33,9 +33,6 @@ html {
   box-sizing: inherit;
 }
 
-main {
-}
-
 body {
   margin: 0;
   font-family: monospace, sans-serif;
@@ -80,7 +77,6 @@ a:hover {
 
 /* SECTIONS */
 #profile {
-  display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
@@ -88,7 +84,7 @@ a:hover {
 
 .section_pic-container {
   display: flex;
-  height: 400px;
+  height: 100px;
   width: 400px;
   margin: auto 0;
 }
@@ -96,6 +92,7 @@ a:hover {
 .section_text {
   align-self: center;
   text-align: center;
+  font-size: 48;
 }
 
 .section_text p {
@@ -104,6 +101,10 @@ a:hover {
 
 #about {
   position: relative;
+  padding-top: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
 }
 
 .about-containers {
@@ -122,12 +123,34 @@ a:hover {
   display: flex;
 }
 
+#experience {
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+}
+
+#education {
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+}
+
+#contact {
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+}
+
 /* ICONS */
 
 .btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  padding-top: 3%;
 }
 
 .btn {

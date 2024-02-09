@@ -21,44 +21,43 @@
       <!-- Container for the brand name -->
       <a class="home-link" href="/">zachrich</a>
     </div>
-    <nav class="links">
-      <!-- Container for the links -->
-      <a href="https://github.com/ZachRich"
-        ><img src="./assets/images/github.svg" alt="Github"
-      /></a>
-      <a href="https://www.linkedin.com/in/zachary-rich/"
-        ><img src="./assets/images/linkedin.svg" alt="LinkedIn"
-      /></a>
-      <a href="https://leetcode.com/ZachRich/"
-        ><img
-          src="./assets/images/leetcode.svg"
-          alt="Leet Code"
-          height="24"
-          width="24"
-        />
-      </a>
-    </nav>
   </header>
 
     <main id="main">
       <!-- PROFILE -->
       <section id = "profile">
         <div class="section_pic-container">
-          <img src="./assets/images/profile.JPG" alt="Zach's Profile Picture" width="300", height="350">
+
         </div>
         <div class="section_text">
           <h1 class="title">Hi!, Im Zach.</h1>
           <p class="section_text_p2">Backend Developer</p>
+          <nav class="links">
+            <!-- Container for the links -->
+            <a href="https://github.com/ZachRich"
+              ><img src="./assets/images/github.svg" alt="Github" width="50" height="50"
+            /></a>
+            <a href="https://www.linkedin.com/in/zachary-rich/"
+              ><img src="./assets/images/linkedin.svg" alt="LinkedIn" width="50" height="50"
+            /></a>
+            <a href="https://leetcode.com/ZachRich/"
+              ><img
+                src="./assets/images/leetcode.svg"
+                alt="Leet Code"
+                width="50" height="50"
+              />
+            </a>
+          </nav>
           <div class="btn-container">
             <button class="btn btn-color-1" onclick="window.open('./assets/resume/resume.pdf')">Download CV</button>
-            <button class="btn btn-color-1" onclick="location.href('./#contact')")">Contact Info</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
           </div>
         </div>
       </section>
       
       <!--ABOUT ME-->
       <section id="about">
-        <p class="section_text">About Me</p>
+        <h1 class="section_text">About Me</h1>
         <div class="section-container">
           <div class="about-details-cont">
               <p>I have experience developing and maintaining RESTful APIs using Java Spring, SQL, and leveraging testing tools to write maintainable code.
@@ -73,13 +72,110 @@
         </div>
       </section>
 
+      <section id="experience">
+        <h1>Experience</h1>
+        <div>
+          <div>
+            <h3>Java API Developer</h3>
+            <div>Retrieve Technologies Inc</div>
+            <div>
+              <span>April 2022 - December 2023</span>
+            </div>
+            <ul>
+              <li>
+                Successfully delivered feature requests on a fast-paced release schedule.
+              </li>
+              <li>
+                Wrote andImplemented API specification documents for our Saas project, ensuring clarity
+                and adherence to project requirements.
+              </li>
+              <li>
+                Implemented/Maintained API endpoints using Java Spring according to
+                business requirements.
+              </li>
+              <li>
+                Developed FFMPEG-based tools for video presentation generation on a job server.
+              </li>
+              <li>
+                Participated in the full software development lifecycle
+              </li>
+              <li>
+                Used SQL and Liquibase to write database changelogs and implement Dao’s
+              </li>
+              <li>
+                Managedandupdated the automated test suite through Jenkins, ensuring continuous
+                integration and testing practices.
+              </li>
+              <li>
+                Collaborated effectively with the team using Git, fostering a streamlined and efficient
+                development workflow.
+              </li>
+            </ul>
+
+            <h3>IT Support</h3>
+            <div>Salem State University</div>
+            <div>
+              <span>November 2019 - April 2022</span>
+            </div>
+            <ul>
+              <li>
+                Respond to issue tickets from faculty, staff and students
+              </li>
+              <li>
+                Active Directory Administration
+              </li>
+              <li>
+                Administrating Confluence knowledge base articles
+              </li>
+            </ul>
+
+            <h3>Linux Server Admin</h3>
+            <div>Salem State University</div>
+            <div>
+              <span>September 2017 - November 2019</span>
+            </div>
+            <ul>
+              <li>
+                Championed the setup of new Computer Science and general class labs
+              </li>
+              <li>
+                Maintained faculty and student file server that managed class resources
+              </li>
+              <li>
+                Student account creation and maintenance
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- PROJECTS -->
+      <section id="projects">
+        
+      </section>
+
+      <!--EDUCATION-->
+      <section id="education">
+        <h1>Education</h1>
+        <h3>Bachelor of Science</h3>
+            <div>Salem State University | Salem, MA.</div>
+            <div>
+              <span>September 2017 - May 2021</span>
+            </div>
+            <ul>
+              <li>Computer Science</li>
+              <li>GPA: 3.1</li>
+            </ul>
+      </section>
+
       <!--contact-->
       <section id="contact">
-        <div class="section_text">
-          <h1>Contact</h1>
-        </div>
-      
-    </section>
+        <a id="contact"></a>
+        <h1>Contact Me</h1>
+        <h2>ZachRichDev@gmail.com</h2>
+      </section>
     </main>
     <footer class="footer"></footer>
   </body>
